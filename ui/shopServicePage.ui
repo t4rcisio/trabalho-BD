@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>975</width>
+    <height>726</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #ffc600;</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QWidget" name="widget_2" native="true">
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>300</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QWidget {
+          
+			background-color:rgb(255, 226, 127);
+            color: #ffffff;
+            padding: 8px;
+            border-radius:20px;
+        }</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QWidget" name="widget_3" native="true">
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#ffffff;&quot;&gt;GERENCIADOR DE SERVIÇOS&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="widget_26" native="true">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>40</height>
+            </size>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_3">
+            <property name="spacing">
+             <number>3</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="config_label">
+              <property name="minimumSize">
+               <size>
+                <width>35</width>
+                <height>35</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>35</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QLabel {
+            background-color:#612d26;
+			font-weight: bold;
+            color: rgb(255, 255, 255);
+            padding: 3px;
+            border-radius: 4px;
+        }</string>
+              </property>
+              <property name="text">
+               <string>ID</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="idText">
+              <property name="minimumSize">
+               <size>
+                <width>50</width>
+                <height>35</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>50</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QLineEdit {
+            background-color: #f0f0f0;
+            border: none;
+            padding: 2px;
+            border-radius: 4px;
+            color: #333;
+			font-size:13px
+        }
+
+        QLineEdit:hover {
+            background-color: #e0e0e0;
+        }
+
+        QLineEdit:focus {
+            background-color: #ffffff;
+            border: 2px solid #007bff;
+        }</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="config_label_2">
+              <property name="minimumSize">
+               <size>
+                <width>120</width>
+                <height>35</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>100</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QLabel {
+            background-color:#612d26;
+			font-weight: bold;
+            color: rgb(255, 255, 255);
+            padding: 3px;
+            border-radius: 4px;
+        }</string>
+              </property>
+              <property name="text">
+               <string>NOME DO SERVIÇO</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="serviceName">
+              <property name="minimumSize">
+               <size>
+                <width>300</width>
+                <height>35</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QLineEdit {
+            background-color: #f0f0f0;
+            border: none;
+            padding: 2px;
+            border-radius: 4px;
+            color: #333;
+			font-size:13px
+        }
+
+        QLineEdit:hover {
+            background-color: #e0e0e0;
+        }
+
+        QLineEdit:focus {
+            background-color: #ffffff;
+            border: 2px solid #007bff;
+        }</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="config_label_3">
+              <property name="minimumSize">
+               <size>
+                <width>50</width>
+                <height>35</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>50</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QLabel {
+            background-color:#612d26;
+			font-weight: bold;
+            color: rgb(255, 255, 255);
+            padding: 3px;
+            border-radius: 4px;
+        }</string>
+              </property>
+              <property name="text">
+               <string>Valor</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="priceText">
+              <property name="minimumSize">
+               <size>
+                <width>100</width>
+                <height>35</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>100</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QLineEdit {
+            background-color: #f0f0f0;
+            border: none;
+            padding: 2px;
+            border-radius: 4px;
+            color: #333;
+			font-size:13px
+        }
+
+        QLineEdit:hover {
+            background-color: #e0e0e0;
+        }
+
+        QLineEdit:focus {
+            background-color: #ffffff;
+            border: 2px solid #007bff;
+        }</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="widget_25" native="true">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_5">
+            <property name="spacing">
+             <number>0</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QTextEdit" name="textEdit">
+              <property name="styleSheet">
+               <string notr="true">QTextEdit {
+            background-color: #f0f0f0;
+            border: none;
+            padding: 2px;
+            border-radius: 4px;
+            color: #333;
+			font-size:13px
+        }</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widget_4" native="true">
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QWidget" name="widget_8" native="true">
+           <property name="maximumSize">
+            <size>
+             <width>200</width>
+             <height>120</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QWidget {
+          
+			background-color:#92653c;
+            color: #ffffff;
+            padding: 8px;
+            border-radius:20px;
+        }</string>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_4">
+            <item>
+             <widget class="QWidget" name="widget_9" native="true">
+              <layout class="QVBoxLayout" name="verticalLayout_3">
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QPushButton" name="newService">
+                 <property name="minimumSize">
+                  <size>
+                   <width>150</width>
+                   <height>35</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>35</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton {
+            background-color: #612d26;
+            color: #ffffff;
+            padding: 3px;
+            border-radius: 12px;
+        }
+
+        QPushButton:hover {
+            background-color: #3a211d;
+        }
+
+        QPushButton:pressed {
+            background-color: #8a605a;
+        }</string>
+                 </property>
+                 <property name="text">
+                  <string>NOVO</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="saveService">
+                 <property name="minimumSize">
+                  <size>
+                   <width>100</width>
+                   <height>35</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>35</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton {
+            background-color: #612d26;
+            color: #ffffff;
+            padding: 3px;
+            border-radius: 12px;
+        }
+
+        QPushButton:hover {
+            background-color: #3a211d;
+        }
+
+        QPushButton:pressed {
+            background-color: #8a605a;
+        }</string>
+                 </property>
+                 <property name="text">
+                  <string>SALVAR</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="widget" native="true"/>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
